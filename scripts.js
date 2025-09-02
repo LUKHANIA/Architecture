@@ -3,8 +3,9 @@ function sendMail(){
         name : document.getElementById("name").value,
         email: document.getElementById("email").value,
         subject : document.getElementById("subject").value,
-        message: document.getElementById("message").value
+        message: document.getElementById("message").value,
     }
 
-    emailjs.send("service_z5xdyq9","template_37chq86".parms).then(alert("Email Sent"))
+    emailjs.send("service_lz4nqad","template_p0dkzmy".parms).then(alert("Email Sent"))
+
 }
